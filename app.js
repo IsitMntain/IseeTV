@@ -1,4 +1,4 @@
-﻿const fileInput = document.getElementById("fileInput");
+const fileInput = document.getElementById("fileInput");
 const fileButton = document.getElementById("fileButton");
 const fileName = document.getElementById("fileName");
 const statusText = document.getElementById("statusText");
@@ -320,6 +320,10 @@ function setupDragAndDrop() {
 
 async function tryAutoLoad() {
   const candidates = [
+    "./ÖmersIPTV.m3u",
+    "./OemersIPTV.m3u",
+    "./Ömersiptv.m3u",
+    "./Oemersiptv.m3u",
     "../ÖmersIPTV.m3u",
     "../OemersIPTV.m3u",
     "../Ömersiptv.m3u",
